@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+HTML id(unico ponto) = CSS #(cerquilha/tralha) id sobrepoe a class.
+HTML class(unico/multiplos pontos) = CSS.
+*/
+
+body{
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#1e402f;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color:white;
+}
+
+h2{
+    color:#3c805e;
+}
+
+h2.basico{
+    color:#3c805e;
+}
+
+h2.intermediario{
+    color:#90793c;
+}
+
+h2.avancado{
+    color:#803c3ce;
+}
+
+.destaque{
+    background-color: #c5c56070;
+}
